@@ -1,4 +1,4 @@
-# ArtWise v1.2
+# ArtWise v1.2.1
 
 Larger Library + Faster Gallery.
 
@@ -25,6 +25,16 @@ Upload all files to your repo root:
 - style.css
 - app.js
 - README.md
+- icon.svg
+- manifest.json
+- service-worker.js
+
+
+## v1.2.1 fix
+
+- Fixed broken image URL for Édouard Manet’s A Bar at the Folies-Bergère
+- Added a simple image-failed fallback state so broken remote images do not leave an ugly blank card
+- Updated cache to v1.2.1
 - icon.svg
 - manifest.json
 - service-worker.js
