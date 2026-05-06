@@ -1,40 +1,29 @@
-# ArtWise v1.2.1
+# ArtWise v1.3
 
-Larger Library + Faster Gallery.
+Curated Artwork Expansion.
 
 ## What changed
 
-- Expanded artwork library from 91 to 243 artworks
-- Gallery now uses smaller thumbnail-style image requests where supported
-- Gallery images are loaded only as they approach the viewport
-- Added async image decoding
-- Added low fetch priority for gallery images
-- Added loading skeleton background
-- Today and Wallpaper views still use the larger image URL
-- Expanded movement coverage
-- Expanded artist timeline coverage
-- Updated cache to v1.2
+- Expanded artwork library from 243 to 393 artworks
+- Added curated global coverage across medieval, Byzantine, Islamic, Persian, Mughal, South Asian, East Asian, African, Oceanic, Mesoamerican, Andean, ancient Egyptian, Greek, Roman, architecture, women artists and modern art
+- Expanded movement explanations
+- Expanded artist timelines
+- No new UI clutter
+- No new nav items
+- Kept Gallery performance improvements from v1.2
+- Kept image fallback from v1.2.1
+- Updated cache to v1.3
 
 ## Upload
 
 Upload all files to your repo root:
 
 - index.html
-- style-v1-2.css
-- app-v1-2.js
+- style-v1-3.css
+- app-v1-3.js
 - style.css
 - app.js
 - README.md
-- icon.svg
-- manifest.json
-- service-worker.js
-
-
-## v1.2.1 fix
-
-- Fixed broken image URL for Édouard Manet’s A Bar at the Folies-Bergère
-- Added a simple image-failed fallback state so broken remote images do not leave an ugly blank card
-- Updated cache to v1.2.1
 - icon.svg
 - manifest.json
 - service-worker.js
