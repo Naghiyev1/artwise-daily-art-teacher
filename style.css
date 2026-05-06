@@ -66,3 +66,6 @@
 }
 
 /* v1.3 curated expansion */
+
+/* v1.3.1 image reliability */
+.image-wrap img[src^="data:image/svg+xml"]{object-fit:cover}
