@@ -1,32 +1,24 @@
-# ArtWise v1.0
+# ArtWise v1.1
 
-Daily art teacher app.
+Content + context pack.
 
-## Features
+## What changed
 
-- One famous artwork per day
-- Clear explanation of why the artwork is special
-- What-to-notice visual guide
-- Why-you-should-know-this section
-- Art teacher takeaway
-- Save/favourite artworks
-- Save/download image button
-- Gallery archive
-- Search and movement filter
-- "How to look at art" learning section
-- Mobile-first PWA style
-
-## Content
-
-v1 includes 19 famous artworks, focused on public-domain works and remote image links.
+- Expanded artwork library from 19 to 91 artworks
+- Added Movements section with simple explanations
+- Added Artist timelines section
+- Added dedicated Wallpaper view
+- Kept the daily artwork habit simple
+- Kept search, movement filter and saved artworks
+- Updated cache to v1.1
 
 ## Upload
 
 Upload all files to your repo root:
 
 - index.html
-- style-v1-0.css
-- app-v1-0.js
+- style-v1-1.css
+- app-v1-1.js
 - style.css
 - app.js
 - README.md
