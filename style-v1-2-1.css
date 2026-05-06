@@ -46,3 +46,21 @@
 .grid .image-wrap{min-height:360px}
 @media(max-width:920px){.timeline-grid{grid-template-columns:1fr}.wallpaper-page{grid-template-columns:1fr}.wallpaper-panel{position:relative;top:auto}.wallpaper-frame,.wallpaper-frame img{min-height:70vh}}
 @media(max-width:560px){.wallpaper-frame{border-radius:24px}.wallpaper-panel{border-radius:24px;padding:20px}.grid .image-wrap{min-height:360px}}
+
+/* v1.2.1 image fallback */
+.image-wrap.image-failed{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:420px;
+  background:linear-gradient(135deg,rgba(214,168,79,.14),rgba(255,255,255,.05));
+}
+.image-wrap.image-failed::after{
+  content:"Image could not load";
+  color:var(--muted);
+  font-weight:850;
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:10px 14px;
+  background:rgba(0,0,0,.18);
+}
