@@ -1,0 +1,16 @@
+{
+  "name": "ArtWise — Daily Art Teacher",
+  "short_name": "ArtWise",
+  "description": "One famous artwork a day, explained clearly.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
